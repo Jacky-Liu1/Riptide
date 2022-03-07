@@ -1,1 +1,2 @@
-# Riptide
+# StableFin
+### Fixed rate lending protocol 
