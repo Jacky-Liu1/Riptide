@@ -1,5 +1,6 @@
 # StableFin
-### Fixed rate lending protocol 
+### Multichain fixed rate lending protocol with underrcollateralized loans
+
 
 **How it works(will provide more details later)**
 1. Borrowers - deposit assets(collateral) and generate corresponding sToken
