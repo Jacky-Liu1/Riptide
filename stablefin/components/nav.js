@@ -76,11 +76,12 @@ export default function Nav() {
             fontWeight={600}
             color={'white'}
             bg={'green.400'}
-            href={'#'}
             _hover={{
               bg: 'green.300',
             }}>
-            App
+            <Link href={'defi'}>
+              App
+            </Link>
           </Button>
         </Stack>
       </Flex>
@@ -99,6 +100,9 @@ const DesktopNav = () => {
 
   return (
     <Stack direction={'row'} spacing={4} align={'center'}>
+      {NAV_ITEMS.map((navItem) => (
+        console.log("!!!!!!", navItem)
+      ))}
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={'hover'} placement={'bottom-start'}>
