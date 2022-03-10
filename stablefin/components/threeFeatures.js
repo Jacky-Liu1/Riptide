@@ -14,9 +14,9 @@ const Feature = ({ title, text }) => {
 
 export default function SimpleThreeColumns() {
   return (
-    <Container maxW={'5xl'}>
+    <Container maxW={'5xl'} className="homeThreeFeatures">
       <Box p={4}>
-        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={150}>
+        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={100}>
           <Feature
             title={'Fixed Rate Lending'}
             text={

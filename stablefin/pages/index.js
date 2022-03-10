@@ -14,8 +14,10 @@ import styles from '../styles/Home.module.css'
 
 
 import Nav from "../components/nav";
-import Footer from "../components/footer";
 import ThreeFeatures from "../components/threeFeatures";
+import About from "../components/about";
+import Roadmap from "../components/roadmap";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -28,7 +30,7 @@ export default function Home() {
         />
       </Head>
 
-      <Container maxW={'7xl'} >
+      <Container maxW={'5xl'} >
         <Stack
           as={Box}
           textAlign={'center'}
@@ -87,7 +89,8 @@ export default function Home() {
       </Container>
 
       <ThreeFeatures />
-
+      <About />
+      <Roadmap />
       <Footer />
     </>
   );

@@ -4,7 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-image: linear-gradient(180deg, #a1c4fd 0%, #c2e9fb 100%) !important; 
+
+  background-color: #8EC5FC !important;
+  background-image: linear-gradient(180deg, #8EC5FC 0%, #E0C3FC 100%) !important;
+
 } 
 
 a {
@@ -20,7 +23,13 @@ a {
   text-decoration: none !important;
 }
 
-.css-1yflkeq {
+.homeNav {  /* custom styling for the home navigation bar */
   padding-left: 20vw !important;
   padding-right: 20vw !important;
+}
+
+
+.homeThreeFeatures { /* custom styling for the home 3 features section */
+  font-size: 1.2em;
+  padding-bottom: 10vh;
 }

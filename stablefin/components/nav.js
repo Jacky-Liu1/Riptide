@@ -29,7 +29,7 @@ export default function Nav() {
   return (
     <Box>
       <Flex
-        bg={useColorModeValue('#a1c4fd ', 'gray.800')}
+        bg={useColorModeValue('#8EC5F', 'gray.800')}
         color={useColorModeValue('gray.600', 'white')}
         minH={'60px'}
         py={{ base: 4 }}
@@ -37,7 +37,8 @@ export default function Nav() {
         borderBottom={1}
         borderStyle={'solid'}
         borderColor={useColorModeValue('gray.100', 'gray.800')}
-        align={'center'}>
+        align={'center'}
+        className="homeNav">
         <Flex
           flex={{ base: 1, md: 'auto' }}
           ml={{ base: -2 }}

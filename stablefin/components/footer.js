@@ -40,7 +40,7 @@ const ListHeader = ({ children }) => {
 export default function LargeWithLogoLeft() {
   return (
     <Box
-      bg={useColorModeValue('#a1c4fd', 'gray.900')}
+      bgGradient='linear-gradient(360deg, #8EC5FC 0%, #E0C3FC 100%)'
       color={useColorModeValue('gray.600', 'white')}>
       <Container as={Stack} maxW={'6xl'} py={10}>
         <SimpleGrid
