@@ -4,7 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+    background-image: linear-gradient(180deg, #a1c4fd 0%, #c2e9fb 100%) !important; 
+} 
 
 a {
   color: inherit;
@@ -13,4 +14,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.chakra-link:hover { /* removes the underline when hovering a link */
+  text-decoration: none !important;
+}
+
+.css-1yflkeq {
+  padding-left: 20vw !important;
+  padding-right: 20vw !important;
 }

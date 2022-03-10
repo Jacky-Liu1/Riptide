@@ -29,11 +29,11 @@ export default function Nav() {
   return (
     <Box>
       <Flex
-        bg={useColorModeValue('white', 'gray.800')}
+        bg={useColorModeValue('#a1c4fd ', 'gray.800')}
         color={useColorModeValue('gray.600', 'white')}
         minH={'60px'}
         py={{ base: 4 }}
-        px={{ base: 250 }}
+        px={{ base: 4 }}
         borderBottom={1}
         borderStyle={'solid'}
         borderColor={useColorModeValue('gray.100', 'gray.800')}
@@ -57,7 +57,7 @@ export default function Nav() {
             fontFamily={'heading'}
             fontSize='3xl'
             color={useColorModeValue('gray.800', 'white')}>
-            StableFin
+            <Link href="/">StableFin</Link>
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -100,9 +100,6 @@ const DesktopNav = () => {
 
   return (
     <Stack direction={'row'} spacing={4} align={'center'}>
-      {NAV_ITEMS.map((navItem) => (
-        console.log("!!!!!!", navItem)
-      ))}
       {NAV_ITEMS.map((navItem) => (
         <Box key={navItem.label}>
           <Popover trigger={'hover'} placement={'bottom-start'}>
